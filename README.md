@@ -1,5 +1,5 @@
 # llm2024_final_task_competition_dockerセットアップガイド
-このプログラムは、NVIDIA GPUを使用してをllm2024の最終課題のサンプルコードをDocker上で動作させるためのものです
+このプログラムは、ローカルのNVIDIA GPUを使用してをllm2024の最終課題のサンプルコードをDocker上で動作させるためのものです
 
 ## 前提条件
 
