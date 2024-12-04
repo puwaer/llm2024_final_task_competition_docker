@@ -66,7 +66,7 @@ model = FastLanguageModel.get_peft_model(
     max_seq_length = max_seq_length,
 )
 
-dataset = load_dataset("json", data_files="./ichikara-instruction-003-001-test.json")
+dataset = load_dataset("json", data_files="./ichikara-instruction-003-001-1.json")
 
 # 学習時のプロンプトフォーマットの定義
 prompt = """### 指示
@@ -201,7 +201,7 @@ trainer_stats = trainer.train()
 # データセットの読み込み。
 # omnicampusの開発環境では、左にタスクのjsonlをドラッグアンドドロップしてから実行。
 datasets = []
-with open("./elyza-tasks-100-TV_test.jsonl", "r") as f:
+with open("./elyza-tasks-100-TV_0.jsonl", "r") as f:
     item = ""
     for line in f:
       line = line.strip()

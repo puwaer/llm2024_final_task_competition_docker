@@ -65,7 +65,7 @@ model = adapter_model
 
 # タスクデータの読み込み
 datasets = []
-with open("./elyza-tasks-100-TV_test.jsonl", "r") as f:
+with open("./elyza-tasks-100-TV_0.jsonl", "r") as f:
     item = ""
     for line in f:
         line = line.strip()
